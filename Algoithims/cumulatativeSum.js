@@ -15,3 +15,13 @@ function cumulativeSum(arr) {
         }
 
 console.log(cumulativeSum(sum))
+
+//use reduce
+
+const sum2 = [1,3,4,5].reduce((acc, cur) => acc + cur, 0);
+
+//reduce(acc, cur)
+//constains 2 values accumilated and current value
+
+//=> acc + cur, 0) 
+// loop over the array want to add curent value to accumated value, 0 as second argumnet when to stop
